@@ -17,7 +17,7 @@ library(ggplot2)
 library(plotly)
 
 ##Get the engine ready
-data<-fread("E:\\Hacks\\HclHackathon\\Data_conr.csv")
+data<-fread("./ConR/Data_file/Data_conr.csv")
 sentnc_const<-list(Doc1=data[1,Content],Doc2=data[2,Content],Doc3=data[3,Content])
 
 
